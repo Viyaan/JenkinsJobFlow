@@ -5,7 +5,7 @@
 	<artifactId>Jenkins-Job-Flow</artifactId>
 	<packaging>jar</packaging>
 	<version>1.47.0</version>
-	<name>utilities</name>
+	<name>JenkinsBuildFlow</name>
 	<url>http://maven.apache.org</url>
 
 	<!-- ID(ART_ID) : user -->
@@ -255,6 +255,11 @@
 				<artifactId>findbugs-maven-plugin</artifactId>
 				
 			</plugin>
+			
+			<plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>cobertura-maven-plugin</artifactId>
+            </plugin>
 
 		</plugins>
 	</reporting>
